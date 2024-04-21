@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "mods.officialy.fluidity.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "FlowingFluidMixin",
+    "WaterFluidMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
